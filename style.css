@@ -388,28 +388,96 @@ section .title::after {
 .skills .skills-content .right .development::before {
   width: 100%;
 }
+.skills .skills-content .right .management::before {
+  width: 100%;
+}
 .skills .skills-content .right .operations::before {
   width: 100%;
 }
-.skills .skills-content .right .corporate::before {
-  width: 100%;
-}
-.skills .skills-content .right .project::before {
+.skills .skills-content .right .management::before {
   width: 90%;
 }
-.skills .skills-content .right .analytic::before {
+.skills .skills-content .right .distribution::before {
   width: 80%;
 }
-.skills .skills-content .right .networking::before {
+.skills .skills-content .right .management::before {
+  width: 80%;
+}
+.skills .skills-content .right .retention::before {
+  width: 80%;
+}
+.skills .skills-content .right .planning::before {
+  width: 80%;
+}
+.skills .skills-content .right .skills::before {
+  width: 80%;
+}
+.skills .skills-content .right .metric::before {
   width: 80%;
 }
 
 /* teams section styling */
-.temas .title::after{
-  content: "who with me";
+.teams .title::after{
+    content: "who with me";
 }
-
-
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: crimson;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
+}
 
 /* contact section styling */
 .contact .title::after {
