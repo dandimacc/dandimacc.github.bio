@@ -1,30 +1,32 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal -->
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello.</title>
+    <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
+</head>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">My<span>Website.</span></a></div>
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#portofolio" class="menu-btn">Experience</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                 <li><a href="#gallery" class="menu-btn">Gallery</a></li>
+                <li><a href="#services" class="menu-btn">My Experience</a></li>
+                <li><a href="#skills" class="menu-btn">Development Skills</a></li>
+                <li><a href="#teams" class="menu-btn">My Gallery</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -39,73 +41,75 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Dandi Muhammad Alim</div>
-                <div class="text-3">And I'am a <span class="typing"></span></div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#">Hire me</a>
             </div>
-
         </div>
     </section>
 
     <!-- about section start -->
     <section class="about" id="about">
-        <div class=" max-width">
+        <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="me.PNG" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'am Dandi and I'am a <span class="typing-2"></span></div>
+                    <div class="text">I'm Dandi and I'm a <span class="typing-2"></span></div>
                     <p>I Graduated in 2021 from Telkom University with Bachelor degree in Industrial Engineering. I am 25 years old right now, I born in Bekasi and lived in Jakarta, Indonesia. I've been the B2B Sales Operation of quite a few company for last called Astragraphia Tbk. I do business development drivers in B2B2G and do improved relationship with partner and client and also have an incredible passion for Technology, Product, and Services. Strong professionaI with an enthusiastic in Business drivers, Networking, Consultative selling skills, Technical, and analytical. and also good problem solving with strong work ethic and tenacity orders to achieve outstanding sales result.</p>
+                    <a href="#">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- porto section start -->
-    <section class="portofolio" id="portofolio">
+    <!-- services section start -->
+    <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My Experienced</h2>
-            <div class="porto-content">
+            <h2 class="title">My Experience</h2>
+            <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-users"></i>
-                        <div class="text">PT Astragraphia Tbk</div>
-                        <p>Account Manager (2023)</p>
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Area Sales Promotion Supervisor</div>
+                        <p>PT. Dima Indonesia</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-tools"></i>
-                        <div class="text">PT Global Jet Cargo</div>
-                        <p>Key Account (2022)</p>
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Senior Project AM</div>
+                        <p>PT. Jala Lintas Media</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-tools"></i>
-                        <div class="text">PT Global Jet Cargo</div>
-                        <p>Key Account (2022)</p>
+                        <i class="fas fa-code"></i>
+                        <div class="text">Key Account Manager</div>
+                        <p>PT. Astragraphia Tbk</p>
                     </div>
-                </div>
-                <div class="card">
+                 </div>
+                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-wifi"></i>
-                        <div class="text">PT Telkom Indonesia</div>
-                        <p>Project Surveyor Internship (2019)</p>
+                        <i class="fas fa-code"></i>
+                        <div class="text">Key Account</div>
+                        <p>PT. Global Jet Cargo</p>
                     </div>
                 </div>
+                </div>
+               </div>
             </div>
-        </div>
         </div>
     </section>
 
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">Development Skills</h2>
+            <h2 class="title">Development skills</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">Skillful Value</div>
+                    <div class="text">Skillful Value.</div>
                     <p>For almost 2 year of experience in sales business operations,
                         I engaged with internal and external for business drivers.
                         cooridinate all account business growth in jakarta, including partnership with client and partner. And also know, how best to dealing, negotiation, and improve relationship with stakeholder and company.
@@ -113,76 +117,75 @@
                         I have strong reputation for my strong work ethic with skills in communication, prioritazion, problem solving, interpersonal, networking, improve relationship and personal drive for my result, 
                         alongside excellent business analytical, technical, critical thinking, and decision making ability.
                     </p>
-
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
                             <span>Business Development</span>
-                            <span>100%</span>
+                            <span>90%</span>
                         </div>
                         <div class="line development"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Strategic Marketing Management</span>
-                            <span>100%</span>
+                            <span>Strategic Marketing Managemen</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line management"></div>
+                        <div class="line managemen"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Sales Operations</span>
-                            <span>100%</span>
+                            <span>Sales Operation</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line operations"></div>
+                        <div class="line operation"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Project Management</span>
-                            <span>90%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line management"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Distribution</span>
-                            <span>80%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line distribution"></div>
-                    </div>   
+                    </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Sales Leadership and team management</span>
-                            <span>80%</span>
+                            <span>Sales leadership and team management</span>
+                            <span>70%</span>
                         </div>
                         <div class="line management"></div>
-                    </div>   
+                    </div>                   
                     <div class="bars">
                         <div class="info">
                             <span>Relationship building and customer retention</span>
                             <span>80%</span>
                         </div>
                         <div class="line retention"></div>
-                    </div>   
+                    </div>                    
                     <div class="bars">
                         <div class="info">
                             <span>Strategic Sales Planning</span>
-                            <span>80%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line planning"></div>
-                    </div>   
+                    </div>                    
                     <div class="bars">
                         <div class="info">
                             <span>Negotiation and closing skills</span>
                             <span>80%</span>
                         </div>
                         <div class="line skills"></div>
-                    </div>   
+                    </div>                    
                     <div class="bars">
                         <div class="info">
                             <span>Data Analysis and sales metric</span>
-                            <span>80%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line metric"></div>
                     </div>
@@ -191,45 +194,44 @@
         </div>
     </section>
 
-
-    <!-- gallery section start -->
-    <section class="gallery" id="gallery">
+    <!-- teams section start -->
+    <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">Gallery</h2>
+            <h2 class="title">My Gallery</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="foto2.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="01.png" alt="">
+                        <div class="text">Event</div>
+                        <p>Brand Community Batam.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="foto2.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="00.png" alt="">
+                        <div class="text">Aanwijzing</div>
+                        <p>Winning Tender Banking BUMN.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="foto3.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="03.png" alt="">
+                        <div class="text">Marketing Team</div>
+                        <p>J&T Cargo Team.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="foto4.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="004.png" alt="">
+                        <div class="text">Visit Outlet</div>
+                        <p>FMCG Off Trade.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="foto5.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="05.png" alt="">
+                        <div class="text">Bonding Team</div>
+                        <p>Party Team Dima Batam.</p>
                     </div>
                 </div>
             </div>
@@ -256,7 +258,8 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">Jl. KH Agus Salim No. 20 Kota Bekasi</div>
+                                <div class="sub-title">Jl. KH Agus Salim No.20 Kota Bekasi
+                                    </div>
                             </div>
                         </div>
                         <div class="row">
@@ -298,16 +301,11 @@
             </div>
     </section>
 
-    <!-- Footer section start -->
+    <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Dandi Muhammad Alim.</a> Credit to: CodingNepal. | <span
-                class="far fa-copyright"></span>
-            2024
-            All right
-            reserved.</span>
+        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
 
-    <script src="js.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
